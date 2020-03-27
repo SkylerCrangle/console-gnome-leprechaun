@@ -1,16 +1,16 @@
 ﻿using System;
-using escape_corona.Controllers;
-using escape_corona.Interfaces;
+using gnome_leprechaun.Controllers;
+using gnome_leprechaun.Interfaces;
 
-namespace escape_corona
+namespace gnome_leprechaun
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.Clear();
-            IGameController gc = new GameController();
-            gc.Run();
-        }
+      Console.Clear();
+      IGameController gc = new GameController();
+      gc.Run();
     }
+  }
 }

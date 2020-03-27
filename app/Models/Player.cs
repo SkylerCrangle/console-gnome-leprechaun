@@ -1,19 +1,19 @@
 using System.Collections.Generic;
-using escape_corona.Interfaces;
+using gnome_leprechaun.Interfaces;
 
-namespace escape_corona.Models
+namespace gnome_leprechaun.Models
 {
-    class Player : IPlayer
+  class Player : IPlayer
+  {
+    private string playerName;
+
+    public Player(string playerName)
     {
-        private string playerName;
-
-        public Player(string playerName)
-        {
-            Name = playerName;
-            Inventory = new List<IItem>();
-        }
-
-        public string Name { get; set; }
-        public List<IItem> Inventory { get; set; }
+      Name = playerName;
+      Inventory = new List<IItem>();
     }
+
+    public string Name { get; set; }
+    public List<IItem> Inventory { get; set; }
+  }
 }

@@ -1,8 +1,8 @@
-namespace escape_corona.Interfaces
+namespace gnome_leprechaun.Interfaces
 {
-    interface IGame
-    {
-        IPlayer CurrentPlayer { get; set; }
-        IRoom CurrentRoom { get; set; }
-    }
+  interface IGame
+  {
+    IPlayer CurrentPlayer { get; set; }
+    IRoom CurrentRoom { get; set; }
+  }
 }

@@ -1,9 +1,9 @@
-namespace escape_corona.Interfaces
+namespace gnome_leprechaun.Interfaces
 {
-    interface IGameController
-    {
-        void Run();
-        void GetUserInput();
-        void Print();
-    }
+  interface IGameController
+  {
+    void Run();
+    void GetUserInput();
+    void Print();
+  }
 }

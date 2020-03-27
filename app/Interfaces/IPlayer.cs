@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 
-namespace escape_corona.Interfaces
+namespace gnome_leprechaun.Interfaces
 {
-    interface IPlayer
-    {
-        string Name { get; set; }
-        List<IItem> Inventory { get; set; }
-    }
+  interface IPlayer
+  {
+    string Name { get; set; }
+    List<IItem> Inventory { get; set; }
+  }
 }

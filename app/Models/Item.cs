@@ -1,16 +1,16 @@
-using escape_corona.Interfaces;
+using gnome_leprechaun.Interfaces;
 
-namespace escape_corona.Models
+namespace gnome_leprechaun.Models
 {
-    class Item : IItem
+  class Item : IItem
+  {
+    public Item(string name, string description)
     {
-        public Item(string name, string description)
-        {
-            Name = name;
-            Description = description;
-        }
-
-        public string Name { get; set; }
-        public string Description { get; set; }
+      Name = name;
+      Description = description;
     }
+
+    public string Name { get; set; }
+    public string Description { get; set; }
+  }
 }
