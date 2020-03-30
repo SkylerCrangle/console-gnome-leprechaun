@@ -136,7 +136,7 @@ _\.\/|   /'--'oOOOOOOo'--'\
            // 
           //
          |/
-      There's a shed to the north, but the door knob is old and difficult to open. Perhaps there's a tool that would help you open it.");
+      Including the broken door knob on the shed to the north. It is old and difficult to open. Perhaps there's a tool that would help you open it.");
 
       Room westYard = new Room("West Yard", @"The yard to the west of the house is yet another expanse of beautifully kept gnome gardens.
 

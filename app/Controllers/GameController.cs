@@ -14,7 +14,16 @@ namespace gnome_leprechaun.Controllers
       Console.WriteLine("Greetings lad, what is your gnome name?");
       // NOTE Gets string from readline and passes is as the player name
       _gs = new GameService(Console.ReadLine());
-      string greeting = @"GoodMorning, you woke up in your gnome home thinking about your leprechaun friend.
+      string greeting = @"
+      
+         __________________________________________
+________|              __             __           |_______
+\       |     | __ |  |__  |    |    |  |          |      /
+ \      |     |    |  |__  |__  |__  |__|          |     /
+ /      |__________________________________________|     \
+/__________)                                   (__________\
+      
+      GoodMorning, you woke up in your gnome home thinking about your leprechaun friend.
       
        
        You'd very much like to speak with him, but it's the dead of summer and hasn't rained in a while. 

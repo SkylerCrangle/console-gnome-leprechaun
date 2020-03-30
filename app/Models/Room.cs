@@ -51,7 +51,38 @@ MMWwwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMm
           
           ";
         }
+        if (item.Name.ToLower() == "wrench")
+        {
+          //shed.Room.Description = "new description";
+          return @"
+     
+             .-.'  '.-.
+          .-(   \  /   )-.
+         /   '..oOOo..'   \
+ ,       \.--.oOOOOOOo.--./
+ |\  ,   (   :oOOOOOOo:   )
+_\.\/|   /'--'oOOOOOOo'--'\
+'-.. ;/| \   .''oOOo''.   /
+.--`'. :/|'-(   /  \   )-'
+ '--. `. / //'-'.__.'-;
+   `'-,_';//      ,  /|
+        '((       |\/./_
+          \\  . |\; ..-'
+           \\ |\: .'`--.
+            \\, .' .--'
+             ))'_,-'`
+       jgs  //-'
+           // 
+          //
+         |/
+      Today was the perfect day to tinker on the door knob. 
+      The shed to the north, now opens smoothly.";
+        }
+
+
         return "You have unlocked a room";
+
+
       }
       return "No use for that here";
     }
