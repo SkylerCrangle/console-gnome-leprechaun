@@ -23,9 +23,33 @@ namespace gnome_leprechaun.Models
       {
         Exits.Add(LockedExits[item].Key, LockedExits[item].Value);
         LockedExits.Remove(item);
-        if (item.Name.ToLower() == "toilet paper")
+        if (item.Name.ToLower() == "sprinkler")
         {
-          return "You hoist the precious paper in the air and a checkstand opens as if by magic";
+          return @"
+          You attach the sprinkler to the hose, water flys int the air,
+          and at last your rainbow appears in the distance to the east
+          
+                                 _.--'_......----........
+                        _,i,,-'' __,,...........___
+                      ,;-' _.--''    ___,,......___
+                    ,;'_,''   _.--'''    __,,......
+                  ,;','   _.-'   _,.--'''__,,......
+      .-.        //,'   ,'   _.-'_,.--'''  .-.
+     ;. .;      ///  ,-'  ,-' ,-'  .-.    ;. .;
+ .- -.. ..- `. /// ,'  ,-' ,-'    ;. ..- -.. ..- `.
+ `. _.(_)._ .'/// /  ,' ,-'   .' -.. .`. _.(_)._ .'
+    /.' '.   /// / ,' ,'      `. _.(_)._ /.' '.  
+   ,';' ';   |||/ - ,'            .` `.\,';' ';
+   |  '-'    \oOoO '              ;` `;`|  '-'
+   |         oOoOOo                `-`  |
+   \        (_____)                     \
+    |        )   (                       |
+    `.      (_____)                      `.
+MMWwwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMm
+          
+          
+          
+          ";
         }
         return "You have unlocked a room";
       }

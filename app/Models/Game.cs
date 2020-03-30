@@ -162,35 +162,41 @@ _\.\/|   /'--'oOOOOOOo'--'\
       From here you can get to eaither the front yard or the backyard");
 
       EndRoom rainbow = new EndRoom("Rainbow", @"
-      The sprinkler sprays water into the air, creating a gnome-made rainbow.
+You gnome-made rainbow worked!
 
-                                 _.--'_......----........
-                        _,i,,-'' __,,...........___
-                      ,;-' _.--''    ___,,......___
-                    ,;'_,''   _.--'''    __,,......
-                  ,;','   _.-'   _,.--'''__,,......
-      .-.        //,'   ,'   _.-'_,.--'''  .-.
-     ;. .;      ///  ,-'  ,-' ,-'  .-.    ;. .;
- .- -.. ..- `. /// ,'  ,-' ,-'    ;. ..- -.. ..- `.
- `. _.(_)._ .'/// /  ,' ,-'   .' -.. .`. _.(_)._ .'
-    /.' '.   /// / ,' ,'      `. _.(_)._ /.' '.  
-   ,';' ';   |||/ - ,'            .` `.\,';' ';
-   |  '-'    \oOoO '              ;` `;`|  '-'
-   |         oOoOOo                `-`  |
-   \        (_____)                     \
-    |        )   (                       |
-    `.      (_____)                      `.
-MMWwwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMm
+                                   .-----.   ()()
+                                  /       \ .'()
+                                  |__...__|/
+                                  |_....._|
+                                .-'  ___  '-.
+                                \_.-`. .`-._/
+          __ .--. _              (|\ (_) /|)
+       .-;.-*-.-;`_;-,            ( \_=_/ )
+     .(_( `)-;___),-;_),          _(_   _)_
+    (.( `\.-._)-.(   ). )       /` ||'-'|| `\
+  ,(_`'--;.__\  _).;--'`_)  _  /_/ (_>o<_) \_\
+ // )`--..__ ``` _( o )'(';,)\_//| || : || |\\
+ \;'        `````  `\\   '.\\--' |`*******`|//
+ /                   ':.___//     \___,___/\_(
+|                      '---'|      |__|__|
+;                           ;      ;**|**;
+ \                         /       [] | []
+  '.                     .'      .'  / \  '.
+ jgs'-,.__         __.,-'        `--'   `--'
+     (___/`````````\___)
+
       
       
       
-      ", true, "You finally connect with your good friend Lemmy the Leprechaun! And he shares with you from his pot of gold for finding him, somehow, in the dead of summer.");
+      ", true, @"You finally connect with your good friend Lemmy the Leprechaun!
+    And he shares with you from his pot of gold for finding him, 
+    Somehow, in the dead of summer.");
 
       //   EndRoom westYard = new EndRoom("Toiletries", "A hoarde of people are racing through this aisle with their weapons out", false, "You are trampled under foot and your name is lost to history");
 
       // NOTE Create all Items
       Item wrench = new Item("Wrench", "perfect for tinkering with sockets");
-      Item sprinkler = new Item("sprinkler", "sprays water into the air and onto the plants");
+      Item sprinkler = new Item("Sprinkler", "sprays water into the air and onto the plants");
 
       // NOTE Make Room Relationships
       home.Exits.Add("south", frontYard);
