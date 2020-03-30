@@ -11,10 +11,16 @@ namespace gnome_leprechaun.Controllers
     private bool _running { get; set; } = true;
     public void Run()
     {
-      Console.WriteLine("Hello there what is your name?");
+      Console.WriteLine("Greetings lad, what is your gnome name?");
       // NOTE Gets string from readline and passes is as the player name
       _gs = new GameService(Console.ReadLine());
-      string greeting = "Welcome to MarkMart, you are here to get some TP, good luck!";
+      string greeting = @"GoodMorning, you woke up in your gnome home thinking about your leprechaun friend.
+      
+       
+       You'd very much like to speak with him, but it's the dead of summer and hasn't rained in a while. 
+       
+       
+       Good Luck!";
       foreach (char letter in greeting)
       {
         Console.Write(letter);
