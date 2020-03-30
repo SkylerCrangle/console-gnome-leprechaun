@@ -44,7 +44,21 @@ namespace gnome_leprechaun.Services
 
     public void Help()
     {
-      throw new System.NotImplementedException();
+      Messages.Add(@"
+      Help:
+      you have some choices. You can type:
+
+      go (direction)
+      take (item)
+      use (item)
+
+      look - to obserb the room you are in
+      inventory - to view items you collected
+
+      help
+      reset
+      quit
+       ");
     }
 
     public void Inventory()

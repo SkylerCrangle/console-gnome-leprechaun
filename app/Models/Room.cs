@@ -53,7 +53,7 @@ MMWwwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMmWwMm
         }
         if (item.Name.ToLower() == "wrench")
         {
-          //shed.Room.Description = "new description";
+          // shed.Room.Description = "new description";
           return @"
      
              .-.'  '.-.

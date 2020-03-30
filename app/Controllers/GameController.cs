@@ -70,6 +70,9 @@ ________|              __             __           |_______
         case "inventory":
           _gs.Inventory();
           break;
+        case "help":
+          _gs.Help();
+          break;
         case "go":
           _running = _gs.Go(option);
           break;
