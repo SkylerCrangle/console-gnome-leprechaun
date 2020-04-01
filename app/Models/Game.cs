@@ -162,7 +162,7 @@ _\.\/|   /'--'oOOOOOOo'--'\
       From here you can get to eaither the front yard or the backyard");
 
       EndRoom rainbow = new EndRoom("Rainbow", @"
-You gnome-made rainbow worked!
+Your gnome-made rainbow worked!
 
                                    .-----.   ()()
                                   /       \ .'()
